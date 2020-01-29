@@ -3,7 +3,7 @@ let key;
 
 function displayResults(responseJSON){
     console.log(responseJSON);
-    if(responseJSON.status(404)){
+    if(!responseJSON){
         alert ("Pais no existente");
     }
     else{
